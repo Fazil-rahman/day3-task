@@ -1,0 +1,17 @@
+const data = {
+    "name": "fazil",
+    "age": 24,
+    "hobby": {
+	"reading" : "novels",
+	"gaming" : "ps",
+	"sport" : "football"
+    },
+    "class" : ["JavaScript", "HTML", "CSS"]
+}
+
+
+console.log(data.name); 
+console.log(data.hobby); 
+
+console.log(data.hobby.sport);
+console.log(data.class[1]);
